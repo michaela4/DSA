@@ -1,0 +1,116 @@
+#calculator {
+  background-color: #6495ED;
+  margin: 75px auto;
+  font-family: Segoe UI;
+  font-size: 40px;
+  padding: 50px;
+  height: 400px;
+  border-radius: 10px;
+  border-bottom: 3px solid gray;
+  width: 400px;
+}
+
+div.buttons {
+  background-color: #FFF5EE;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  border-bottom: 5px solid gray;
+  width:32px;
+  float: left;
+  padding: 10px 21px 10px 21px;
+  margin-right: 7px;
+  margin-top: -20px;
+  margin-bottom: 26px;
+
+}
+
+#buttonsEqual {
+  background-color: #FFF5EE;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  border-bottom: 5px solid gray;
+  width:32px;
+  float: left;
+  padding: 10px 98px 10px 98px;
+  margin-right: 7px;
+  margin-top: -20px;
+  margin-bottom: 26px;
+
+}
+
+#buttonsClear{
+  background-color: #FFA07A;
+  border-radius: 10px;
+  border-bottom: 5px solid gray;
+  width:32px;
+  float: right;
+  padding: 10px 20px 10px 20px;
+  margin-right: 5px;
+  margin-top: -20px;
+  margin-bottom: 26px;
+  text-align: left;
+}
+
+div.buttonsOperator {
+  background-color: #FFA07A;
+  border-radius: 10px;
+  border-bottom: 5px solid gray;
+  width:32px;
+  float: right;
+  padding: 10px 20px 10px 20px;
+  margin-right: 5px;
+  margin-top: -20px;
+  margin-bottom: 26px;
+}
+
+
+div.buttons:hover {
+  background-color:gray;
+  cursor: pointer;
+  color:white;
+}
+
+#buttonsEqual:hover {
+  background-color:gray;
+  cursor: pointer;
+  color:white;
+}
+
+#buttonsClear:hover{
+  background-color:gray;
+  cursor: pointer;
+  color:white;
+}
+
+div.buttonsOperator:hover {
+  background-color:gray;
+  cursor: pointer;
+  color:white;
+}
+
+#result > p {
+  background-color: #DCDCDC;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  float: center;
+  width: 400px;
+  height: 40px;
+  line-height: 38px;
+}
+
+#result {
+  background-color: #DCDCDC;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  float: center;
+  width: 400px;
+  height: 40px;
+  line-height: 38px;
+}
+
+body {
+  background-color: #191970;
+  text-align: center;
+}
