@@ -62,7 +62,6 @@ public class ArrayRandom {
     
     System.out.println ("Initializing values.");
     for (int k = 0; k < size; k++){
-       //int value =(int)(1+Math.random()*1000);
        Random value = new Random();
        storage.array[k] = value.nextInt(1000);
     }
