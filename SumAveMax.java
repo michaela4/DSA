@@ -10,14 +10,14 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class TotalMax {
+public class SumAveMax {
   private int array [];
   private int capacity;
   private int max = 0;
   private int sum =0;
   private float average = 0;
   
-  public TotalMax(int size) {
+  public SumAveMax(int size) {
      capacity = size;
      array = new int[capacity];
    }
@@ -64,7 +64,7 @@ public class TotalMax {
     
     System.out.println ("Please enter the array size:");
     int size =  input.nextInt();
-    TotalMax storage = new TotalMax(size);
+    SumAveMax storage = new SumAveMax(size);
     
     for (int k = 0; k < size; k++){
        Random value = new Random();
