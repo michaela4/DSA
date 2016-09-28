@@ -19,16 +19,16 @@ public class LinearSearch {
      array = new int[capacity];
    }
   
-  public void toSearch(int search){
-    
-    for (int i = 0; i < capacity; i++){
+   public void toSearch(int search){
+    int i;
+    for (i = 0; i < capacity; i++){
       if ( array [i] == search ){
         System.out.println("FOUND: " + search + " is at array["+ i +"]");
-          break;
+        break;
       }
-      if (i == capacity){}
-      System.out.println("NOT FOUND: " + search + " is not in the array.");
-      break;
+    }
+    if (i == capacity){
+      System.out.println("NOT FOUND: " + search + " is not in the array.");    
     }
   }
   
